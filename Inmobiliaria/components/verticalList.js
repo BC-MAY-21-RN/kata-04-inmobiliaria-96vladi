@@ -5,9 +5,6 @@ import ListItem from './listItems';
 const VerticalList = ({ items }) => {
   return(
     <View style={ styles.container }>
-      <Text>
-        Titulo
-      </Text>
       <ScrollView
         showsVerticalScrollIndicator={true}
         style = { styles.scrollContainer }
@@ -25,9 +22,9 @@ const VerticalList = ({ items }) => {
 
 const styles = StyleSheet.create({
   container:{
-    marginTop: 25,
-    padding: 5,
-    height: 'auto',
+    marginHorizontal: 25,
+    marginVertical: 15,
+    height: 'auto'
   },
   scrollContainer:{
     paddingBottom: 15,
