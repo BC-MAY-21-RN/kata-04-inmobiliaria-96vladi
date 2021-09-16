@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
   imgContainer: {
     width: '40%',
     height: '90%',
-    marginTop: 5
   },
   imgBackground: {
     width: '100%',
