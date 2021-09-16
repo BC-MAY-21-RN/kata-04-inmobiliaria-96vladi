@@ -1,51 +1,17 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import VerticalList from './verticalList';
+import { realState } from '../data/data.js';
 
 const Home = () => {
   return (
     <View style={styles.container}>
       <VerticalList
-        items = { recipes }
+        items = { realState }
       />
     </View>
   );
 };
-
-
-const recipes = [
-  {
-    name: 'item 1'
-  },
-  {
-    name: 'item 2'
-  },
-  {
-    name: 'item 3'
-  },
-  {
-    name: 'item 3'
-  },
-  {
-    name: 'item 3'
-  },
-  {
-    name: 'item 3'
-  },
-  {
-    name: 'item 3'
-  },
-  {
-    name: 'item 3'
-  },
-  {
-    name: 'item 3'
-  },
-  {
-    name: 'item 3'
-  }
-];
-
 
 const styles = StyleSheet.create({
   container: {

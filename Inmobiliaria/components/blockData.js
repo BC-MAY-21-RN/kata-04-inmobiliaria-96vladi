@@ -6,18 +6,38 @@ const BlockData = ({ item }) => {
     <View
       style={styles.blockData}
     >
-      <Text>
-        The Willows
-      </Text>
-      <Text>
-        Ubicacion
-      </Text>
-      <Text>
-        Caracteristicas
-      </Text>
-      <Text>
-        precio
-      </Text>
+      <View>
+        <Text
+          style={{
+            fontSize: 18
+          }}
+        >
+          {item.name}
+        </Text>
+      </View>
+      <View>
+        <Text>
+          {item.location}}
+        </Text>
+      </View>
+      <View>
+        <Text
+        >
+          {item.bedroom}
+          {item.shower}
+          {item.size}
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={{
+            fontSize: 18,
+            fontWeight: "bold"
+          }}
+        >
+          {item.price}
+        </Text>
+      </View>
     </View>
   );
 };
@@ -28,7 +48,6 @@ const styles = StyleSheet.create({
     width: '60%',
     height: '90%',
     backgroundColor: '#FCF1B6',
-    padding: 10
   },
   data: {
 
