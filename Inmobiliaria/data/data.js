@@ -10,7 +10,7 @@ export const realState = [
   },
   {
     name: 'Abitare',
-    location: 'Ave #500, New York, NY 10151, Estados Unidos',
+    location: 'Ave #500, New York. Estados Unidos',
     bedroom: '4',
     shower: '3',
     size: '300 ft"2',
@@ -19,7 +19,7 @@ export const realState = [
   },
   {
     name: 'Alliance',
-    location: 'Terrace Suite#106, Miami, FL 33166, Estados Unidos',
+    location: '33166, Estados Unidos',
     bedroom: '2',
     shower: '1',
     size: '150 ft"2',
@@ -28,7 +28,7 @@ export const realState = [
   },
   {
     name: 'Cota',
-    location: 'Brickell Ave, Miami, FL 33131, Estados Unidos',
+    location: '33131, Estados Unidos',
     bedroom: '3',
     shower: '1',
     size: '200 ft"2',
@@ -37,7 +37,7 @@ export const realState = [
   },
   {
     name: 'Reality',
-    location: 'Lois Ave #670, Tampa, FL 33607, Estados Unidos',
+    location: 'Lois Ave #670, Estados Unidos',
     bedroom: '4',
     shower: '1',
     size: '300 ft"2',
@@ -46,7 +46,7 @@ export const realState = [
   },
   {
     name: 'Horizonte',
-    location: 'Pines Blvd Suite 315, Pembroke Pines, FL 33027, Estados Unidos',
+    location: 'Pines Blvd Suite 315, Estados Unidos',
     bedroom: '2',
     shower: '2',
     size: '220 ft"2',
@@ -55,7 +55,7 @@ export const realState = [
   },
   {
     name: 'Mansión',
-    location: 'Brickell Ave, Miami, FL 33129, Estados Unidos',
+    location: '33129, Estados Unidos',
     bedroom: '5',
     shower: '1',
     size: '300 ft"2',
@@ -64,7 +64,7 @@ export const realState = [
   },
   {
     name: 'NewLife',
-    location: 'Grapetree Dr, Key Biscayne, FL 33149, Estados Unidos',
+    location: '33149, Estados Unidos',
     bedroom: '3',
     shower: '1',
     size: '250 ft"2',
