@@ -2,6 +2,7 @@ import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 import Ionicon from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
+import HeartView from './heart';
 const BlockData = ({ item }) => {
   return(
     <View
@@ -60,6 +61,8 @@ const BlockData = ({ item }) => {
           {item.price}
         </Text>
       </View>
+
+      <HeartView />
     </View>
   );
 };
@@ -69,19 +72,18 @@ const styles = StyleSheet.create({
     alignContent: 'flex-end',
     width: '60%',
     height: '90%',
-    backgroundColor:'#DDBE17'
   },
   textTitlePrice: {
     flexDirection:'row',
     fontSize: 18,
     fontWeight: 'bold',
-    marginBottom:5,
+    marginBottom:5
   },
   location:{
     flexDirection:'row',
     marginHorizontal:15,
-    marginBottom:5,
-    backgroundColor:'#1B8963'
+    height:'30%',
+    alignItems:'center'
   },
   TextLocation:{
     marginHorizontal:10,
@@ -89,13 +91,13 @@ const styles = StyleSheet.create({
   },
   titleAndPrice:{
     marginHorizontal:15,
-    backgroundColor:'#39891B'
+    height:'25%'
   },
   features:{
     flexDirection:'row',
     marginHorizontal:15,
-
-    backgroundColor:'#1E1B89'
+    height:'25%',
+    alignItems:'center'
   },
 });
 
