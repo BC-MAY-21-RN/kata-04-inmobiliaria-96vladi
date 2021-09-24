@@ -60,9 +60,9 @@ const BlockData = ({ item }) => {
         >
           {item.price}
         </Text>
+        <HeartView />
       </View>
-
-      <HeartView />
+      
     </View>
   );
 };
@@ -91,7 +91,8 @@ const styles = StyleSheet.create({
   },
   titleAndPrice:{
     marginHorizontal:15,
-    height:'25%'
+    height:'25%',
+    flexDirection:'row'
   },
   features:{
     flexDirection:'row',

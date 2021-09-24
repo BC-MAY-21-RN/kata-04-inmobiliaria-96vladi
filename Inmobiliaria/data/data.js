@@ -6,6 +6,7 @@ export const realState = [
     shower: '2',
     size: '230 ft"2',
     price: '$ 440/m',
+    qualification: '4.5',
     img: ''
   },
   {
@@ -15,6 +16,7 @@ export const realState = [
     shower: '3',
     size: '300 ft"2',
     price: '$ 500/m',
+    qualification: '3.8',
     img: ''
   },
   {
@@ -24,6 +26,7 @@ export const realState = [
     shower: '1',
     size: '150 ft"2',
     price: '$ 300/m',
+    qualification: '4.7',
     img: ''
   },
   {
@@ -33,6 +36,7 @@ export const realState = [
     shower: '1',
     size: '200 ft"2',
     price: '$ 350/m',
+    qualification: '4',
     img: ''
   },
   {
@@ -42,6 +46,7 @@ export const realState = [
     shower: '1',
     size: '300 ft"2',
     price: '$ 400/m',
+    qualification: '4.5',
     img: ''
   },
   {
@@ -51,6 +56,7 @@ export const realState = [
     shower: '2',
     size: '220 ft"2',
     price: '$ 350/m',
+    qualification: '5',
     img: ''
   },
   {
@@ -60,6 +66,7 @@ export const realState = [
     shower: '1',
     size: '300 ft"2',
     price: '$ 550/m',
+    qualification: '3.5',
     img: ''
   },
   {
@@ -69,6 +76,7 @@ export const realState = [
     shower: '1',
     size: '250 ft"2',
     price: '$ 350/m',
+    qualification: '4',
     img: ''
   },
 ];

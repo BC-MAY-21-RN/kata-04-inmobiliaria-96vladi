@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
       alignSelf: 'flex-end',
       padding: 6,
       borderRadius: 50,
+      marginHorizontal:65
     },
   });
 
